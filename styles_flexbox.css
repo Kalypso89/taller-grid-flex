@@ -24,7 +24,8 @@ main {
     column-gap: 1%;
     justify-items: center; /*izquierda-derecha*/
     align-items:center; /*arriba-abajo*/
-    /*PROPIEDADES DE ALINEACIÓN*/
+    /*PROPIEDADES ALINEACIÓN*/
+
 
     /*mover la grilla como un bloque
     justify-content: center;
