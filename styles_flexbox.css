@@ -16,22 +16,11 @@ header {
 main {
     background-color: rgb(108, 33, 179);
     height: 70vh;
-    display: grid;
-    grid-template-rows: 30% 30% 30%;
-    grid-auto-columns: 33%;
-    grid-auto-flow: column;
-    row-gap: 1%;
-    column-gap: 1%;
-    justify-items: center; /*izquierda-derecha*/
-    align-items:center; /*arriba-abajo*/
-    /*PROPIEDADES ALINEACIÓN*/
-
-
-    /*mover la grilla como un bloque
-    justify-content: center;
-    align-content: center;
-    place-content: center;*/
-
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
 .card {
@@ -42,6 +31,9 @@ main {
     background-color: beige;
     box-shadow: 3px 3px gray;
     text-align: center;
+    /*
+    flex-grow: 4; 
+    unidades que debe crecer*/
 }
 
 .card_img {
